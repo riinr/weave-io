@@ -439,7 +439,6 @@ Swift would build async/await on top of coroutines abstraction
 
 24 Dec announcement:
 - Async/Await proposal accepted: https://forums.swift.org/t/accepted-with-modification-se-0296-async-await/43318
--
 
 ## Kernel I/O primitives
 
@@ -484,6 +483,7 @@ Swift would build async/await on top of coroutines abstraction
 
   > Summary: delimited continuations give you a way to write monadic code as if you were writing normal code (you could say it's do-notation on steroids).
 
+
 - Capturing the Future by Replaying the Past\
   Functional Pearl\
   James Koppel, Gabriel Scherer, Armando Solar-Lezama\
@@ -499,6 +499,7 @@ Ergonomics (coroutine == delimited continuations):
 
 - A monadic framework for delimited continuations
   - https://legacy.cs.indiana.edu/~dyb/pubs/monadicDC.pdf
+- Escaping Hell with Monads: https://philipnilsson.github.io/Badness10k/escaping-hell-with-monads/
 
 ### Coroutines
 
